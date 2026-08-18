@@ -344,7 +344,7 @@ if [ "$CLI" = "codex" ]; then
     echo "============================================================"
     echo
 
-    npm install -g @openai/codex \
+    npm install -g @openai/codex@latest \
         || error_exit "Codex installation failed."
 
     echo
